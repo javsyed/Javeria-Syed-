@@ -1,0 +1,25 @@
+#header2 {
+    background-color:rgb(240, 240, 240);
+    padding: 30px;
+}
+
+
+.topimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.columni {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    border: darkgrey 2px solid;
+  }
+  
+
+  
+  
+
