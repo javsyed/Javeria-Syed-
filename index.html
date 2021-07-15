@@ -1,78 +1,131 @@
 <!DOCTYPE html>
-<html lang="en-US">
-      <link rel="stylesheet" href="index.css">
+<html lang="en">
 
-        <title>Javeria Syed Muqtadir</title>
-       
-        <meta charset="UTF-8">
-        <meta name="description" content="About me">
-        <meta name="author" content="Javeria Syed">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
 
-        <header>
-
-            <div class="top" >
-                <div>
-                  <a href="index.html" class="topa" onclick="reStyle(0);return false" >HOME</a>
-                  <a href="education.html" class="topa" onclick="reStyle(0);return false">EDUCATION</a>
-                  <a href="interests.html" class="topa" onclick="reStyle(0);return false">INTERESTS</a>
-                  
-            
-                    </div>
-                  </div>
-              </header>
-
-       <header id="header" >
-        <h2 id="headertitle"> Hi, I'm Javeria </h2>
-      
-        <img src="Me3.png" alt="My Picture" width="50%">
-        
-        </header>
-
-   
 <body>
-   
-    <article id="content">
-        <header>
-            
-         <h3> WHO AM I?</h3>
 
-          <p>
-            
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+         <ul> <li>
+           <img src="logo.png" class="logo"> 
+          </li></ul>
+          
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" onclick="reStyle(0);return false" >Home</a></li>
+            <li><a href="portfolio.html" onclick="reStyle(0);return false">Portfolio</a></li>
+            <li><a href="resume.html" onclick="reStyle(0);return false">Resume</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
-            <i>A little bit about me...</i></p>
 
-        </header>
+  
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>my name is <span></span></h1>
+        <h1>Javeria Syed Muqtadir <span></span></h1>
+        <a href="portfolio.html" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
 
 
 
-        <p>I am a 21 years old Visual Designer with an interest in Product, Graphic and UX/UI Design. I have a little over 3 years of experience and my speciality is in Industrial Design. This website explains who i am briefly and consists of my education and interests.
-          <br><br>
-          If you're reading this, i have successfully coded my own website, enjoy! :)
-            
-            <br><br>
-           I hope to contact you soon.
-        </p>
+  <section id="expertise">
+    <div class="expertise container">
+      <div class="expertise-top">
+        <h1 class="section-title">Expertise</h1>
+        <p>A multi-disciplinary designer with a goal towards communicating visually.</p>
+      </div>
+      <div class="expertise-bottom">
+        <div class="expertise-item">
+         
+          <h2>Web Design</h2>
+          <p>UX/UI Design with curiosity towards software development (hence this website :D )</p>
+        </div>
+        <div class="expertise-item">
+          
+          <h2>Industrial Design</h2>
+          <p>From sketching to ideating and creating, I'm into everything in between! </p>
+        </div>
+        <div class="expertise-item">
+         
+          <h2>Graphic Design</h2>
+          <p>No design exists without understanding it's visual language, hence the interest!</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      </article>
 
-        <footer>
+
+
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Let's Connect!</h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+90 553 698 5169</h2>
+            <h2>+968 7987 5985</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="email.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>javeria.s.muqtadir@gmail.com</h2>
+            <h2>muqtadir.javeria@metu.edu.tr</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="address.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2> ODTÜ, Ankara, Turkey </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="footer">
+    <div class="footer container">
       
-            <p id="footer"> <small> Here is my <em>email</em>, feel free to contact me! <a id="email" href="mailto:muqtadir.javeria@metu.edu.tr" target="_blank" >muqtadir.javeria@metu.edu.tr</a></small>
-            </p>
-            <br><br>
-           <p id="disclaimer">
-            Copyright © 2021 Javeria Syed. All rights reserved. 
-           </p>
+        <img src="logo2.png" class="logo">
+ 
+          <p>Copyright © 2021 Javeria. All rights reserved</p>
+          
+      </div>   
+    
+  </section>
 
-          </footer>
-
-     
-
-
-       
-
+  <script src="./app.js"></script>
 </body>
-</html>
 
+</html>
